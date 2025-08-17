@@ -23,18 +23,24 @@ This project demonstrates how to use **React Context API** to manage global stat
 
 ## 🚀 Installation
 
+
+1️⃣ Clone the Repository
 ```bash
-# 1️⃣ Clone the Repository
-git clone https://github.com/anuj-singal/context-api-example.git
-cd context-api-example
-
-# 2️⃣ Install Dependencies
-npm install
-
-# 3️⃣ Run the Development Server
-npm run dev
-# Open your browser at 👉 http://localhost:5173
+git clone https://github.com/anuj-singal/context-api.git
+cd context-api
 ```
+
+2️⃣ Install Dependencies
+```bash
+npm install
+```
+
+3️⃣ Run the Development Server
+```bash
+npm run dev
+```
+
+Open your browser at 👉 http://localhost:5173
 
 ---
 
