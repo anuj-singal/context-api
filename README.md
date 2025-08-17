@@ -1,12 +1,33 @@
-# React + Vite
+# 🌀 React Context API Example
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates how to use **React Context API** to manage global state in a simple login/profile app. It avoids prop drilling by sharing data across components using `useContext`.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚡ Features
+- 🔑 Login form updates global user state  
+- 👤 Profile page consumes user data from Context  
+- 🚫 No prop drilling needed  
+- 🎨 Styled with **Tailwind CSS**  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Screenshot
+<p align="center">
+  <img src="./screenshot.png" alt="App Screenshot" width="600" height="350"/>
+</p>
+
+---
+
+## 🚀 Installation
+```bash
+# 1️⃣ Clone the Repository
+git clone https://github.com/anuj-singal/context-api-example.git
+cd context-api-example
+
+# 2️⃣ Install Dependencies
+npm install
+
+# 3️⃣ Run the Development Server
+npm run dev
+# Open your browser at 👉 http://localhost:5173
